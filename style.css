@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+
+header{
+    background: #34495e;
+    height: 8vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    
+}
+
+header p {
+    margin-left: 40px;
+}
+
+main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: solid darkgreen;
+}
+
+
+.containerUm{
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.sistemas{
+    font-size: 35px;
+}
+
+.visual{
+    margin-top: 70px;
+}
+
+
+.containerDois{
+    background: rgb(242, 236, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.boxlogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 460px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 50px;
+    margin-bottom: 80px;
+}
+
+/* .Tat {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #16c1ec, #d99acc, #ffffff, #16c1ec);
+    background-size: 400% 100%;
+    padding: 50px;
+    animation: degrade 10s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes degrade {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    } */
+
+
+.boxlogin .title {
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+h1{
+    text-align: center;
+}
+
+.boxlogin form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.boxlogin input {
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    height: 58px;
+    border: #333338 1px solid;
+    padding-left: 16px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+.boxlogin input:focus {
+    border: 2px solid rgba(11, 11, 11, 0.3);
+}
+
+.boxlogin input::placeholder {
+    color: #000000fc;
+}
+
+.boxlogin button {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+   background: #00078a;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.boxlogin button:focus {
+    background-color: #228416;
+
+}
+
+.boxlogin .divisao {
+    display: block;
+    height: 2px;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 32px;
+    margin-bottom: 32px;
+    opacity: .2;
+}
+
+
+.boxlogin a {
+    font-size: 15px;
+    color: #2828a0;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.boxlogin a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width:1200px)
+{
+
+
+.boxlogin{
+    width: 100vw;
+}
+
+.containerUm{
+    display: none;
+}
+
+}
