@@ -28,7 +28,7 @@ main{
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: solid darkgreen;
+    
 }
 
 
@@ -39,6 +39,7 @@ main{
     justify-content: start;
     flex-direction: column;
     text-align: center;
+    
 }
 
 
@@ -52,12 +53,13 @@ main{
 
 
 .containerDois{
-    background: rgb(242, 236, 242);
+ 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;   
+    background: #e4e4e4fc;
 }
 
 
@@ -81,27 +83,6 @@ main{
     padding: 50px;
     margin-bottom: 80px;
 }
-
-/* .Tat {
-    font-size: 2rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    background: linear-gradient(45deg, #16c1ec, #d99acc, #ffffff, #16c1ec);
-    background-size: 400% 100%;
-    padding: 50px;
-    animation: degrade 10s linear infinite alternate;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-@keyframes degrade {
-    0% {
-        background-position: 0%;
-    }
-
-    100% {
-        background-position: 400%;
-    } */
 
 
 .boxlogin .title {
